@@ -1,0 +1,15 @@
+## About R script
+File with R code "run_analysis.R" perform the following steps: 
+1. Download the dataset and unzip the files.  
+2. assign column names to the training and the testing sets.  
+3. Merging the training and the test sets to create one data set.     
+4. Extracting only the measurements on the mean and standard deviation for each measurement     
+5. Using descriptive activity names to name the activities in the data set   
+6. Appropriately labeling the data set with descriptive variable names   
+7. Creating a second, independent tidy data set with the average of each variable for each activity and each subject 
+8. Writing second tidy data set in txt file
+
+## About variables:   
+* `x_train`, `y_train`, `x_test`, `y_test`, `train` and `test` contain the data from the downloaded files.
+* `x_data`, `y_data` and `subject_data` merge the previous datasets to further analysis.
+* `features` contains the correct names for the `x_data` dataset, which are applied to the column names stored in
